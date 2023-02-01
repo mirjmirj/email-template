@@ -17,8 +17,30 @@
       }
 
       .link-nl { 
-        text-decoration: 1px underline #2fb3ea; 
-        color: #181a1c;
+        text-decoration: 1px underline #2fb3ea !important;
+        color: #181a1c !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      .link-nl:visited, .link-blk:visited {
+        color: #181a1c !important;
+      }
+
+      .link-nl:hover, .link-blk:hover {
+        color: #89939c !important;
+      }
+
+      .cta a {
+        -webkit-transition: all 0.25s 0s ease;
+        -moz-transition: all 0.25s 0s ease;
+        -o-transition: all 0.25s 0s ease;
+        transition: all 0.25s 0s ease;
+      }
+
+      .cta:hover a {
+        background-color: #42474c !important;
+        color: #89939c !important;
       }
     </mj-style>
   </mj-head>
@@ -75,7 +97,7 @@
           Apply for the <a class="link-nl" href="https://www.noodle.com/">upcoming session</a> of the Advanced Management Program today.</a>
         </mj-text>
 
-        <mj-button href="https://www.noodle.com/" align="right" font-size="12px" font-weight="500" background-color="#181a1c" color="#ffffff" inner-padding="20px" border-radius="0" width="220px" text-align="left">
+        <mj-button css-class="cta" href="https://www.noodle.com/" align="right" font-size="12px" font-weight="500" background-color="#181a1c" color="#ffffff" inner-padding="20px" border-radius="0" width="220px" text-align="left">
           Apply Now 
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <span style="font-size: 16px; color: #009dde !important;">&#8594;</span>
