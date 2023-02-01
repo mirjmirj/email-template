@@ -1,66 +1,141 @@
 <mjml>
+	<mj-head>
+    <mj-title>Columbia Business School</mj-title>
+    
+    <mj-attributes>
+      <mj-all font-family="neue-haas-grotesk-text,'helvetica neue',helvetica,arial,sans-serif" />
+    </mj-attributes>
+    
+    <mj-style inline="inline">
+      .border-lt { border-bottom: 1px solid #e6e6e6 !important }
+
+      .border-dk { border-bottom: 1px solid #969696 !important }
+
+      .link-blk { 
+        color: #181a1c !important; 
+        text-decoration: none !important;
+      }
+
+      .link-nl { 
+        text-decoration: 1px underline #2fb3ea; 
+        color: #181a1c;
+      }
+    </mj-style>
+  </mj-head>
   <mj-body>
 
-    <!-- Company Header -->
-    <mj-section background-color="#f0f0f0">
+    <!-- SUB-HEADER -->
+    <mj-section css-class="border-lt" padding="10px 0" full-width="full-width">
       <mj-column>
-        <mj-text  align="center"
-              font-style="italic"
-                  font-size="20px"
-                  color="#626262">
-          My Company
+        <mj-text color="#181a1c" font-size="12px" font-weight="500" align="right">
+          <a class="link-blk" href="#">Open in Browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- HEADER -->
+    <mj-section css-class="border-dk" full-width="full-width" padding="20px 0">
+      <mj-column>
+        <mj-image padding="0" align="left" width="260px" src="https://go-execed.gsb.columbia.edu/l/48172/2021-03-17/85cjrh/48172/1615990230ZBA6lKYk/execed_fullcolor_rgb_988px_by_162px_at_144ppi.png" />
+      </mj-column>
+    </mj-section>
+
+    <!-- QUOTATION  -->
+    <mj-section padding="20px 0 5px">
+      <mj-column>
+        <mj-text color="#181a1c" font-size="18px" font-weight="800" padding="20px 70px">
+          "If this program doesn't add considerable value on both a personal and professional level, look inwards. Columbia gets it right."
+        </mj-text>
+        <mj-text color="#181a1c" font-size="12px" font-weight="500" line-height="18px" padding="3px 0">
+          <span style="font-weight: 800;">—Ian Hogg,</span>
+          <br />
+          CEO Australia/Asia Pacific,
+          <br />
+          FremantleMedia
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- BODY  -->
+    <mj-section css-class="border-dk" padding="0">
+      <mj-column>
+        <mj-text color="#181a1c" font-size="12px" line-height="18px" padding="10px 0">
+          Hello,
+          <br />
+          <br />
+          When you partner with Columbia Business School on your leadership journey, you join a network of the brightest minds in business. The faculty and industry thought leaders at the helm of the <a class="link-nl" href="#">Advanced Management Program</a> will invest in your growth as a strategic leader and will commit to your onctinued success in your field.
+          <br />
+          <br />
+          The blended modality of the Advanced Management Program combines online and in-person instruction over the course of 22 weeks. Our program features:
+          <ul style="margin-left: 0; padding-left: 20px;">
+            <li>Virtual live lectures that allow you to engage with peers, professors, and guest lecturers</li>
+            <li>Individualized executive coaching to help you identify and exceed your personal and professional goals</li>
+            <li>Immersion experiences at the epicenter of business, New York City</li>
+          </ul>
+          Apply for the <a class="link-nl" href="#">upcoming session</a> of the Advanced Management Program today.</a>
+        </mj-text>
+
+        <mj-button href="#" align="right" font-size="12px" font-weight="500" background-color="#181a1c" color="#ffffff" inner-padding="20px" border-radius="0" width="220px" text-align="left">
+          Apply Now 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style="font-size: 16px; color: #009dde !important;">&#8594;</span>
+        </mj-button>
+
+        <mj-text color="#181a1c" font-size="12px" line-height="18px" padding="10px 0">
+          We are happy to discuss how the Advanced Management Program can support your development goals. Please feel free to reach out to us with any question at <a class="link-nl" href="#">+1 212-827-5603</a>.
+          <br />
+          <br />
+          Kind Regards,
+          <br />
+          <br />
+          The Learning Solutions team
+          <br />
+          Executive Education
+          <br />
+          Columbia Business School
+          <br />
+          <a class="link-nl" href="#">
+            +1 212-827-5603
+          </a>
+          <br />
+          <a class="link-nl" href="#">
+            Schedule a call
+          </a>
+          |
+          <a class="link-nl" href="#">
+            Send us an email
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
 
+    <!-- SUB-FOOTER -->
+    <mj-section css-class="border-dk" padding="20px 0">
+      <mj-column>
+        <mj-image padding="0" align="left" width="100px" src="https://i1.createsend1.com/ti/j/D3/7C6/9C9/021006/csimport/cbs-logo-2_ojdre8_1.png" />
+      </mj-column>
+    </mj-section>
 
-		<!-- Image Header -->
-		<mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-								background-size="cover"
-								background-repeat="no-repeat">
+    <!-- FOOTER -->
+    <mj-section padding="5px 0 20px">
+      <mj-group>
+        <mj-column width="70%">
+          <mj-text color="#181a1c" font-size="11px" padding="0px" line-height="14px">
+            &copy; Columbia University
+            <br />
+            3022 Broadway New York, NY 10027
+          </mj-text>
+        </mj-column>
 
-			<mj-column width="600px">
-				<mj-text  align="center"
-											color="#fff"
-											font-size="40px"
-											font-family="Helvetica Neue">
-					Slogan here
-				</mj-text>
-
-				<mj-button background-color="#F63A4D"
-									 href="#">
-					Promotion
-				</mj-button>
-			</mj-column>
-		</mj-section>
-
-    <!-- Introduction Text -->
-		<mj-section background-color="#fafafa">
-			<mj-column width="400px">
-
-				<mj-text font-style="italic"
-								 font-size="20px"
-								 font-family="Helvetica Neue"
-								 color="#626262">My Awesome Text</mj-text>
-
-				<mj-text color="#525252">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
-				</mj-text>
-
-				<mj-button background-color="#F45E43" href="#">Learn more</mj-button>
-
-			</mj-column>
-		</mj-section>
-
-    <!-- 2 columns section -->
-    <mj-section background-color="white"></mj-section>
-
-    <!-- Icons -->
-    <mj-section background-color="#fbfbfb"></mj-section>
-
-    <!-- Social icons -->
-    <mj-section background-color="#f0f0f0"></mj-section>
+        <mj-column width="30%">
+          <mj-text color="#181a1c" font-size="11px" padding="0px" line-height="14px">
+            <a class="link-blk" href="#">Privacy &amp; Policy Statements</a>
+            <br />
+            <a class="link-blk" href="#">Unsubscribe from these emails</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
 
   </mj-body>
 </mjml>
-
