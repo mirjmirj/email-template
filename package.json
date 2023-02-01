@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mjml": "^4.13.0"
+  },
+  "scripts": {
+    "clean": "rm -rf _dist/*",
+    "validate": "./node_modules/.bin/mjml -v index.mjml",
+    "build:email": "mkdir -p _dist && ./node_modules/.bin/mjml index.mjml -o _dist/index.html",
+    "build": "npm run clean && npm run build:email",
+    "watch": "chokidar '**/*.mjml' -c 'npm run build:email'",
+    "server": "npx browser-sync start --server '_dist' --files '_dist' --no-notify --no-open",
+    "start": "npm-run-all -p watch server"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
