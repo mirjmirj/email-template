@@ -65,11 +65,11 @@
     <!-- QUOTATION  -->
     <mj-section padding="20px 20px 5px">
       <mj-column>
-        <mj-text color="#181a1c" font-size="18px" font-weight="800" padding="20px 50px">
+        <mj-text color="#181a1c" font-size="18px" font-weight="700" padding="20px 50px">
           "If this program doesn't add considerable value on both a personal and professional level, look inwards. Columbia gets it right."
         </mj-text>
         <mj-text color="#181a1c" font-size="12px" font-weight="500" line-height="18px" padding="3px 0">
-          <span style="font-weight: 800;">—Ian Hogg,</span>
+          <span style="font-weight: 700;">—Ian Hogg,</span>
           <br />
           CEO Australia/Asia Pacific,
           <br />
